@@ -1,7 +1,9 @@
 
-# Impfterminbot Berlin Impfzentren
+# Impfterminbot Berlin Impfzentren/HU
 
 This is a bot for getting an Impftermin in an Impfzentrum in Berlin via doctolib.
+
+PROBABLY OUTDATED!!! Just keeping the general idea here (also added the version for the HU Berlin, huimpf.py)
 
 
 ## Installation 
@@ -33,7 +35,7 @@ This script just search for new available dates
  you can choose the exact date and time. The bash script runs the script for 
  all six Impfzentren in Berlin.
 
-Automatic: impfbot2.opy and impfbot2.sh:
+Automatic: impfbot2.py and impfbot2.sh:
 
 This script additionally tries to book the two appointments, because this is first 
 come, first serve. It is experimental. After finishing, you got two appointments and 

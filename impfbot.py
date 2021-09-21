@@ -29,8 +29,8 @@ while True:
 	browser.get(urls[impfzentrum])
 	time.sleep(3)
 	
-	# or not browser.find_elements_by_xpath("//*[contains(text(), 'Juni 2021')]")
-	while not browser.find_elements_by_class_name('availabilities-message'):
+	# or not browser.find_elements_by_class_name('availabilities-message')
+	while not browser.find_elements_by_xpath("//*[contains(text(), '1. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '2. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '3. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '4. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '5. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '6. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '7. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '8. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '9. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '10. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '11. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '12. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '13. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '14. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '15. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), '16. Juli 2021')]") or not browser.find_elements_by_xpath("//*[contains(text(), 'Juni 2021')]"):
 		print('searching at ', names[impfzentrum])
 		browser.refresh()
 		time.sleep(1)

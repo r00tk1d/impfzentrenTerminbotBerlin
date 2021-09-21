@@ -51,7 +51,7 @@ while True:
 		available_second_times = browser.find_elements_by_css_selector('div.Tappable-inactive.availabilities-slot')
 		for impf_time in available_second_times:
 			impf_time.click()
-		os.system('play -nq -t alsa synth {} sine {}'.format(7, 440))
+		os.system('play -nq -t alsa synth {} sine {}'.format(4, 440))
 		print('Possible Impftermine found. Please go into the browser to fill your informations.')
 		time.sleep(999999)
 	except:
